@@ -17,7 +17,7 @@ params:
   loss: sparse_categorical_crossentropy
   metrics: ["accuracy"]
   validation_split: 0.2
-  batch_size: 16                   # <<------- change 32 to 16
+  batch_size: 16                   # <<------- change 32 to 16 if you have less resources
   seed: 42
-  buffer_size: 16                 # <<------- change 32 to 16
+  buffer_size: 16                 # <<------- change 32 to 16 if you have less resources
   epochs: 1

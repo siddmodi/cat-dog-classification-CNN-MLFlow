@@ -38,7 +38,7 @@ def main(config_path):
 
     # Unzip ops
     unzip_data_dir = config["data"]["unzip_data_dir"]
-    if os.path.exists(unzip_data_dir):                # <<--------- remove 'not'
+    if os.path.exists(unzip_data_dir):                
         create_directories([unzip_data_dir])
         unzip_file(source=data_file_path, dest=unzip_data_dir)
     else:

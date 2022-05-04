@@ -62,6 +62,7 @@ def main(config_path):
     
 
     classifier = tf.keras.models.load_model(path_to_model)
+    # classifier = tf.keras.models.load_model('data\\model\\trained_model.h5')
 
     ## training
     logging.info(f"training started")
