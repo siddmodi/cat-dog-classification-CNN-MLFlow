@@ -6,6 +6,10 @@ import logging
 from src.utils.common import create_directories
 
 def validate_image(config: dict) -> None:
+    '''
+        Return Unziped data and move correct files in their respective directory of parent data directory
+        and bad files in bad data directory
+    '''
     PARENT_DIR = os.path.join(
         config["data"]["unzip_data_dir"],
         config["data"]["parent_data_dir"])

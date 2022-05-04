@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 ## edit below variables as per your requirements -
-REPO_NAME = ""
-AUTHOR_USER_NAME = ""
+REPO_NAME = "cat-dog-classification-CNN-MLFlow"
+AUTHOR_USER_NAME = "siddmodi"
 SRC_REPO = "src"
 LIST_OF_REQUIREMENTS = []
 
