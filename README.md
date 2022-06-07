@@ -55,14 +55,15 @@ We use **MLops** pipeline for this project to smoothen the process and seprate e
 
 This project we divided in 5 stages. we use **tensorlow** to define our architecture
 
-1)This stage download data from online source as zip file, extract that data and store in their respective directory automatically 
+1) This stage download data from online source as zip file, extract that data and store in their respective directory automatically 
 
-2)This stage will define a base **CNN** model architecture , create a base cnn model and save it in a dirrectory
+2) This stage will define a base **CNN** model architecture , create a base cnn model and save it in a dirrectory
 
-3)Here we defined **early-stopping callback** in case the model is not improving much from last few iterations and checkpoint callbacks in case any 
-	failure like powercut etc   
-4)Here we **train** our base model with the data of cats and dogs run multiple epochs and dump that model in respective directory
+3) Here we defined **early-stopping callback** in case the model is not improving much from last few iterations and checkpoint callbacks in case any 
+   failure like powercut etc  
+   
+4) Here we **train** our base model with the data of cats and dogs run multiple epochs and dump that model in respective directory
 
-5)Stage for prediction 
+5) Stage for prediction 
 
 We also consider the situation if we stuck anywhere by creating **log** files for each and every steps for each stage
